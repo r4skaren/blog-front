@@ -1,0 +1,9 @@
+.container-fluid{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #DB4411;
+}
+
+.btn1{
+    margin-right: 1vw;
+}

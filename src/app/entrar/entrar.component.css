@@ -1,9 +1,19 @@
 #img-bg{
-    background-image: url('https://i.imgur.com/d5bMdDJ.jpg');
+    background-image: url('https://i.pinimg.com/564x/b8/3d/22/b83d227429ab1742d7a5485fbdfc01c4.jpg');
   
     min-height: 695px;
   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .container-fluid{
+    background-color: #f2622e;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .btn, .form-group{
+    margin-top: 2vw;
   }

@@ -1,18 +1,18 @@
 <div class="container-fluid">
 
-    <div class="row bg-secondary d-flex align-items-center">
+    <div class="row d-flex align-items-center">
       <div class="col-md-6">
   
         <div class="row d-flex justify-content-center">
           <div class="col-md-6 text-white">
-            <h1 class="fs-54">Seja bem vindo(a)!</h1>
-            <h5 class="fs-18">expresse aqui os seus pensamentos e opniões!</h5>
+            <h1 class="fs-60">SEJA BEM VINDE!</h1>
+            <h5 class="fs-18">Deixe aqui uma frase ou texto que expresse como está se sentido nesse momento.</h5>
           </div>
         </div>
   
         <div class="row d-flex justify-content-center mt-3 mb-5">
           <div class="col-md-6">
-            <button class="btn btn-light mr-2" data-toggle="modal" data-target="#novaPostagem">Nova Postagem</button>
+            <button class="btn btn1 btn-light mr-2" data-toggle="modal" data-target="#novaPostagem">Nova Postagem</button>
             <a class="btn btn-outline-light" href="#postagens">Ver Postagens</a>
           </div>
         </div>
@@ -21,7 +21,7 @@
   
   
       <div class="col-md-6 d-flex justify-content-center">
-        <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px">
+        <img src="https://i.imgur.com/wtzhVSC.png" alt="" width="600px" height="500px">
       </div>
     </div>
   
@@ -165,12 +165,12 @@
           </div>
   
           <div class="form-group">
-            <label for="texto">Texto</label>
-            <textarea [(ngModel)]='postagem.texto' class="form-control" name="texto" id="texto" rows="3"></textarea>
+            <label for="text">Texto</label>
+            <textarea [(ngModel)]='postagem.text' class="form-control" name="text" id="text" rows="3"></textarea>
           </div>
   
           <div class="form-group">
-            <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink='/tema'>cadastre um novo</a>:
+            <label for="text">Escolha um tema ou <a data-dismiss="modal" routerLink='/tema'>cadastre um novo</a>:
             </label>
             <select name="tema" id="tema" class="form-control" [(ngModel)]='idTema' (change)='findByIdTema()'>
               <option *ngFor='let item of listaTemas' value="{{item.id}}">

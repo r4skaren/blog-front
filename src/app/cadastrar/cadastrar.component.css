@@ -1,5 +1,5 @@
 #img-bg{
-    background-image: url('https://i.imgur.com/w3d95jN.jpg');
+    background-image: url('https://i.pinimg.com/564x/35/fa/c6/35fac6921c3a8a0ec424b56febdc6489.jpg');
   
     min-height: 695px;
   
@@ -7,3 +7,15 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .container-fluid{
+    background-color: #fefefe;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .btn, .form-group{
+    margin-top: 1vw;
+    margin-right: 1vw;
+  }
+

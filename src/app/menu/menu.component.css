@@ -5,3 +5,15 @@
   a{
     cursor: pointer;
   }
+
+  .navbar{
+    background-color: #181A19;
+  }
+  .imagem{
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+
+  .sair{
+    margin-left: 900px;
+  }
